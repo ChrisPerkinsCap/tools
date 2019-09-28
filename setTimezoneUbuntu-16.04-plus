@@ -1,0 +1,18 @@
+set -e
+
+echo "Europe/London" | tee /etc/timezone \
+    && echo "Europe/London" | tee /etc/localtime
+
+apt-get update \
+        && apt-get install -y --no-install-recommends \
+        tzdata \
+        && apt-get clean \
+        && apt-get autoclean \
+        && apt-get autoremove \
+        && rm -rf /var/lib/apt/lists/*
+
+dpkg-reconfigure --frontend noninteractive tzdata
+
+date
+
+exec "$@"
