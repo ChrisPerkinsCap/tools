@@ -1,0 +1,71 @@
+ace-editor:1.1
+analysis-core:1.94
+antisamy-markup-formatter:1.5
+apache-httpcomponents-client-4-api:4.5.3-2.1
+blueocean
+branch-api:2.0.18
+checkstyle:3.50
+cloudbees-folder:6.3
+credentials-binding
+credentials:2.1.16
+display-url-api:2.2.0
+docker-workflow
+email-ext:2.63
+envinject-api:1.5
+envinject:2.1.6
+findbugs:4.72
+git-client:2.7.1
+git:3.7.0
+gradle:1.28
+jacoco:2.2.1
+javadoc:1.4
+jquery-detached:1.2.1
+jsch:0.1.54.1
+junit:1.24
+mailer:1.20
+matrix-auth
+matrix-auth:2.3
+matrix-project:1.12
+maven-plugin:3.1
+mstest
+next-build-number:1.5
+nexus-jenkins-plugin:1.1.0-05
+plain-credentials:1.4
+pmd:3.50
+role-strategy:2.9.0
+scm-api:2.2.6
+script-security:1.41
+ssh-credentials:1.13
+structs:1.13
+token-macro:2.5
+workflow-aggregator
+workflow-api:2.25
+workflow-cps:2.44
+workflow-job:2.17
+workflow-multibranch:2.17
+workflow-scm-step:2.6
+workflow-step-api:2.14
+workflow-support:2.18
+
+
+Supporting APIs v.2.12 (required)
+API v.2.8 (required)
+Groovy v.2.25 (required)
+Nodes and Processes v.2.8 (required)
+Step API v.2.9 (required)
+Basic Steps v.2.3 (required)
+Docker Commons v.1.14 (required)
+Script Security v.1.25 (required)
+Command Agent Launcher v.1.0 (implied)
+Gradle:5.4.1
+
+A Jenkins Agent that can authenticate with the master and has the following packages installed:
+Corretto 11
+Openssh-server with Authentication
+Gradle 5.4.1
+git
+curl
+libssl1.1
+openssl
+ca-certificates
+java-common
